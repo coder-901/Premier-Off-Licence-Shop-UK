@@ -1,11 +1,25 @@
 // Footer.js
 import React from 'react';
+import footerLogo from 'C:\Users\CODER\Documents\TARUN KUMAR\Projects\Premier-Off-Licence-Shop-UK\store\public\website-logo.png';
 
 function Footer() {
   return (
     <footer>
 
       <div className="footer-content">
+        <div className="footer-logo">
+          <img src={footerLogo} alt="Little Lemon Footer Logo" />
+        </div>
+        <div className="footer-nav">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#login">Login</a></li>
+          </ul>
+        </div>
         <div className="contact-info">
           <h4>Contact Us</h4>
           <p>................, UK</p>
@@ -21,7 +35,7 @@ function Footer() {
           </ul>
         </div>
         <div className="copyright">
-          <p>&copy; 2023 Little Lemon. All rights reserved.</p>
+          <p>&copy; 2024 Premier Off Licence. All rights reserved.</p>
         </div>
       </div>
 
