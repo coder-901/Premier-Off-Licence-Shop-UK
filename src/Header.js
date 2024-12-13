@@ -1,7 +1,7 @@
 // Header.js
 
 import React from 'react';
-import logo from 'C:\Users\CODER\Documents\TARUN KUMAR\Projects\Premier-Off-Licence-Shop-UK\store\public\website-logo.png';
+import logo from './website-logo.png';
 
 function Header(){
     return (

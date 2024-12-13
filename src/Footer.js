@@ -1,6 +1,6 @@
 // Footer.js
 import React from 'react';
-import footerLogo from 'C:\Users\CODER\Documents\TARUN KUMAR\Projects\Premier-Off-Licence-Shop-UK\store\public\website-logo.png';
+import footerLogo from './website-logo.png';
 
 function Footer() {
   return (
